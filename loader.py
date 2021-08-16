@@ -34,8 +34,8 @@ password=driver.find_element_by_css_selector("input[name='password']")
 
 username.clear()
 password.clear()
-username.send_keys("")
-password.send_keys("")
+username.send_keys("dl1301@naver.com")
+password.send_keys("sug1302913021301")
 login = driver.find_element_by_css_selector("button[type='submit']").click()
 
 time.sleep(5)
